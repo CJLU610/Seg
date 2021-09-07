@@ -2,7 +2,7 @@
 
 基于 [UNet](https://arxiv.org/pdf/1505.04597.pdf) 和 [UNet++](https://arxiv.org/abs/1807.10165)
 
-
+Demo数据[百度网盘](https://pan.baidu.com/s/1QrjYFyjVRzjUTumIjiXB9w)提取码：1418；其中images是图像数据集，masks是该数据集对应的标签，test是测试数据，checkpoints是在该数据集上预训练的模型。
 ## Usage
 
 #### Note :  Python 3
@@ -80,4 +80,5 @@ python inference_color.py -m ./data/checkpoints/epoch_10.pth -i ./data/test/inpu
 ```bash
 tensorboard --logdir=runs
 ```
+
 
